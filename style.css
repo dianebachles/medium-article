@@ -1,44 +1,75 @@
+.banner-card {
+  background-image: url("https://images.unsplash.com/photo-1558236797-297feec52d44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80");
+  background-size: contain;
+  color: white;
+  padding: 120px 0;
+}
+
 body {
-  background-image: url(images/SVG/BACKGROUND_VECTOR_FLEUR_ORANGER.svg) ;
-  color: #575F7D;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  font-weight: lighter;
+color: #494949;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+line-height: 1.6;
+font-weight: lighter;
   }
 
-h1,h2,h3
-{
-  font-family: 'Abril Fatface', cursive;
-  color: #354D49 ;
-  }
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF ;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF ;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #A0A0A0;
+  text-align: justify;
+
+}
+
+#title-article{
+  font-family: 'Montserrat', sans-serif;
+  color: #A0A0A0 ;
+  text-align: justify;
+}
+
+#title-description-banner{
+  font-family: 'Playfair Display', serif;
+  color: #FFFFFF ;
+  text-align: center;
+}
+
 
 .card {
-  background-color: #F7F9FC;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding: 5px;
   margin: 20px 0px;
   text-align: center;
   }
 
-#btn-link {
-  font-family: 'Roboto', sans-serif;
+.link-medium {
+  background-image:linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #354D49;
+  font-family:'Playfair Display', serif;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium a {
   text-decoration: none;
-  padding: 15px;
-  color: #FFFFFF;
-  background-color: #CB462E;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15pxpx;
-  border: 4px solid #CB462E;
-  }
+  color: #354D49;
+}
 
-
-#btn-link:hover {
+.link-medium:hover {
   padding: 15px;
-  color: #ffffff;
+  color: #354D49;
   background-color: #354D49;
-  border: 4px solid #354D49;
   }
 
 #color-link {
@@ -47,10 +78,13 @@ h1,h2,h3
   }
 
 .container {
-  width: 700px;
-  margin: 40px auto;
   border-radius: 20px;
-  }
+  width: 700px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
 
 
 @media (max-width: 960px) {
